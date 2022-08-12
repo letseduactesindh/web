@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>student test </title>
+</head>
+
+
+<body>
+  <div class="quiz-container" id="quiz">
+    <div class="line" id="line"></div>
+    <div class="quiz-header">
+      <h1 class="timer" id="timer">0</h1>
+
+      <bdo dir="rtl" id="question"></bdo>
+      <ul id="ul">
+        <li dir="rtl">
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+
+        <li dir="rtl">
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li dir="rtl">
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li dir="rtl">
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+
+      </ul>
+
+      <h1 id="total">
+        1 / 100
+      </h1>
+    </div>
+
+    <button id="submit" class="none">Next</button>
+
+  </div>
+
+  <div id="startup">
+    <div class="shw" style="flex-direction:column;">
+      <div class="abc">
+        <ul>
+          <li style="list-style:circle; font-weight: 800; font-size: 25px; " dir="rtl">موبائيل کي ويب سائيٽ تي تيار رکو </li>
+          <li style="list-style:circle; font-weight: 800; font-size: 25px; " dir="rtl">پاسورڊ ملڻ جي هڪ منٽ کان بعد توهان جو وقت شروع</li>
+          <li style="list-style:circle; font-weight: 800; font-size: 25px; " dir="rtl">هر سوال تي صرف 30 سيڪنڊ ملندا</li>
+          <li style="list-style:circle; font-weight: 800; font-size: 25px; " dir="rtl">ڪنهن به مسئلي جي ڪري ورائي ٽيسٽ نه ورتي ويندي</li>
+          <li style="list-style:circle; font-weight: 800; font-size: 25px; " dir="rtl">پاسورڊ ٻئي کي ٻڌائڻ سان اسان جي ڪمپيوٽر کي خبر پئجي ويندي</li>
+          <div class="bb">
+            <button style="width:200px;" id="mm">start</button>
+          </div>
+          
+        </ul>
+      </div>
+      
+    
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
